@@ -1,0 +1,252 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: goldenrod;
+}
+
+img {
+    width: 250px;
+    justify-content: start;
+}
+
+.menu{
+    padding: 0;
+    background-color: darkblue;
+    width: auto;
+    margin: auto;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu li a{
+    color: goldenrod;
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+    height: 100%;
+    
+}
+
+.menu li a:hover{
+    background-color: chocolate;
+}
+
+
+.menu li{
+    display: inline-block;
+    align-content: space-between;
+    
+}
+
+.boton_1{
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: darkblue;
+    font-size: 19px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.boton_1:active{
+    background-color: chocolate;
+}
+
+.boton_2{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: black;
+    font-size: 19px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.boton_2:active{
+    background-color: darkblue;
+}
+
+.main{
+    display: flex;
+    margin-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.parrafo_main{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+.div_p_scroll{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: dotted;
+}
+
+.imagen_main{
+    border-radius: 5px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100vw;
+    border: dotted 3px;
+    width: 100vw;
+    display: block;
+    
+}
+
+
+
+.div_img_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.img_uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo_h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    
+    margin-top: 10px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+
+
+.caja_milan{
+    width: 75vw;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.tituloMilan{
+    display: block;
+}
+
+.adress_milan{
+    display: inline;
+}
+
+.adress_milan p{
+    display: inline;
+}
+
+.email_milan{
+    display: inline;
+}
+
+.email_milan p{
+    display: inline;
+}
+
+.telefono_milan{
+    display: inline;
+}
+
+.telefono_milan p{
+    display: inline;
+}
+
+.caja_venecia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.adress_venecia{
+    display: inline;
+}
+
+.adress_venecia p{
+    display: inline;
+}
+
+.email_venecia{
+    display: inline;
+}
+
+.email_venecia p{
+    display: inline;
+}
+
+.telefono_venecia{
+    display: inline;
+}
+
+.telefono_venecia p{
+    display: inline;
+}
+
+
+
+.aside{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.redes_sociales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.img_logo_copyright{
+    max-width: 100%;
+    min-height: 100%;
+    width: 100px;
+    height: 50px;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.parrafo_copyright{
+    display: block;
+}
